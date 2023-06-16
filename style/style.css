@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: 0.5s;
+    text-decoration: none;
+    border: none;
+}
+
+.wrapper {
+    max-width: 1139px;
+    margin: 0 auto;
+}
+#header {
+    background-image: url(../image/bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 0;
+}
+
+.navbar .logo {
+    font-size: 24px;
+}
+.navbar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.items ul {
+    display: flex;
+    gap: 40px;
+}
+.items ul li a {
+    color: white;
+    font-size: 18px;
+}
+.btn button {
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: #C9453B;
+    color: white;
+}
+
+.bars i {
+    font-size: 30px;
+    display: none;
+}
+.topSeciton {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 70vh;
+    color: white;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.title button {
+    padding: 10px 40px;
+    background: #C9453B;
+    color: white;
+}
+.title h1 {
+    font-size: 65px;
+}
+
+.title p {
+    font-size: 18px;
+    max-width: 400px;
+    color: gray;
+}
+.papular {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.papularTitle {
+    text-align: center;
+}
+.papularTitle h2 {
+    font-size: 43px;
+}
+.papularTitle p {
+    font-size: 18px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+}
+.card1 h4 {
+    font-size: 24px;
+}
+.card1 p {
+    text-align: center;
+    color: gray;
+}
+.card1 img {
+    width: 100%;
+}
+
+.spacial {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+
+.spacialTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.spacialTitle h4 {
+    font-size: 43px;
+}
+.spacialTitle p {
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
+.spacialCard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.spacialCard img {
+    width: 100%;
+}
+.spacialCard h3 {
+    font-size: 24px;
+}
+
+.spacialCard .loc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.spacialCard .newIcon i {
+    color: red;
+}
+.spacialCard .newIcon ~ div i {
+    color: yellow;
+}
+.spacialCards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.span {
+    opacity: 0.5;
+}
+
+.fromBlog {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+.fromTitle  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fromTitle h4 {
+    font-size: 43px;
+}
+.fromTitle p {
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+}
+.fromCard1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fromCard {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fromTitleCard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fromCards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.fromCardGap {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.fromCards img {
+    width: 100%;
+}
+#footer {
+    background: rgba(38, 148, 153, 0.04);
+    width: 100%;
+    height: 30vh;
+}
+
+.footerContact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerImgs {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footerTitle {
+    display: flex;
+    justify-content: space-between;
+    min-height: 30vh;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.footerLinks1 a {
+    color: black;
+    font-size: 18px;
+}
+.footerLinks1 ul li {
+    line-height: 30px;
+}
+.sub {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sub .footerEmailInput {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.sub .footerEmailInput input  {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.sub .footerEmailInput input {
+    padding: 10px 40px;
+    outline: none;
+}
+
+.sub .footerEmailInput button {
+    padding: 10px 30px;
+    background: #C9453B;
+    color: white;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 650px) {
+    #header {
+        background-position: center;
+
+    }
+    .wrapper {
+        max-width: 900px;
+        padding: 0 30px;
+    }
+    .items , .btn {
+        display: none;
+    }
+    .bars i {
+        display: block;
+    }
+    .title h1 {
+        font-size: 45px;
+    }
+    .cards {
+        justify-content: center;
+    }
+    .spacialCards {
+        justify-content: center;
+    }
+    .spacial {
+        min-height: 100vh;
+        margin-top: 100px;
+    }
+    .papular {
+        min-height: 100vh;
+    }
+    .fromCard {
+        flex-direction: column;
+    }
+    .fromCards {
+        justify-content: center;
+    }
+
+}
